@@ -1,3 +1,7 @@
+alert("Game Rules")
+alert("The first player to get the score of 31 or more WINS")
+
+
 const button = document.getElementById("roll");
 const button2 = document.getElementById("restart");
 const buttonplayer2 = document.getElementById("roll2");
@@ -24,10 +28,10 @@ button.addEventListener("click", () => {
 
     function checkScore() {
         if (score > 30)(
-            document.getElementById("score").innerHTML = "Player 1 WINS!!! Restart the game!"
+            document.getElementById("score").innerHTML = "YOU WIN!!!"
         )
         if (score > 30) {
-            document.getElementById("score2").innerHTML = "Player 1 WINS!!! Betterluck next time!"
+            document.getElementById("score2").innerHTML = " Betterluck next time!"
         }
         if (score > 30) {
             document.getElementById("roll2").disabled = true;
@@ -66,10 +70,10 @@ buttonplayer2.addEventListener("click", () => {
 
     function checkScore2() {
         if (score2 > 30)(
-            document.getElementById("score2").innerHTML = "Player 2 WINS!!! Restart the game!"
+            document.getElementById("score2").innerHTML = "YOU WIN!!!"
         )
         if (score2 > 30) {
-            document.getElementById("score").innerHTML = "Player 2 WINS!!! Betterluck next time!"
+            document.getElementById("score").innerHTML = "Betterluck next time!"
         }
         if (score2 > 30) {
             document.getElementById("roll").disabled = true;
@@ -86,12 +90,7 @@ buttonplayer2.addEventListener("click", () => {
     checkScore2()
 
 })
-// function whichroll(){
-//         if(button.addEventListener("click", ( )=> {
-//             button.textContent = "hide";
-//             buttonplayer2.textContent = "show";
-//         })
-// } 
+
         
 
 

@@ -105,18 +105,8 @@ h2 {
 #restart:hover{
     background-color: rgb(71, 245, 40);
 }
-#restart2{
-    font-size: 30px;
-    font-weight:1000;
-    font-style: oblique;
-    color: brown;
-    background-color: gold;
-    margin-top: 1%;
 
-}
-#restart2:hover{
-    background-color: rgb(71, 245, 40);
-}
+
 #scorebox {
     width: 20vw;
     height: 40vw;

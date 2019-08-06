@@ -1,9 +1,14 @@
+
+
+
+
 const button = document.getElementById("roll");
 const button2 = document.getElementById("restart");
 const image = document.getElementById("diceimage");
 var score = 0;
 button2.style.display="none"
-
+alert("Game Rules")
+alert("You have to get to a score of 20 but Your not allowed to roll a 1 if you do You are out the game")
 
 button.addEventListener("click", () =>{
     var randomNumber = Math.floor(Math.random() * 6)+1; 
@@ -20,7 +25,7 @@ button.addEventListener("click", () =>{
         button.style.display="none";
     }
     if(randomNumber==1){
-    document.getElementById("score").innerHTML = "UNLUCKY!YOU LOSE!! BETTERLUCK NEXT TIME! Restart the game!";
+    document.getElementById("score").innerHTML = "YOU LOSE!! BETTERLUCK NEXT TIME!";
     
     }
     }
