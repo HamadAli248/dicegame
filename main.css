@@ -126,7 +126,8 @@ h2 {
     }
     #box {
         width: 40vw;
-        height: 40vw; 
+        height: 60vw;
+        
         
     }
     #roll{
@@ -138,7 +139,7 @@ h2 {
     }
     #scorebox {
         width: 40vw;
-        height: 40vw;
+        height: 60vw;
         
     }
     #randomNumber{
