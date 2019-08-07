@@ -1,14 +1,9 @@
 
-
-
-
 const button = document.getElementById("roll");
 const button2 = document.getElementById("restart");
 const image = document.getElementById("diceimage");
 var score = 0;
 button2.style.display="none"
-alert("Game Rules")
-alert("You have to get to a score of 20 but Your not allowed to roll a 1 if you do You are out the game")
 
 button.addEventListener("click", () =>{
     var randomNumber = Math.floor(Math.random() * 6)+1; 

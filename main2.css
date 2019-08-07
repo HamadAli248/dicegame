@@ -154,4 +154,91 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1000;
 }
+@media all and (max-width:800px){
+    #boxabox1selected{
+        font-size: 10px;
+    }
+    #boxabox2{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #box {
+        width: 40vw;
+        height: 40vw;
+        
+    }
+    #box2 {
+        width: 40vw;
+        height: 40vw;
+        
+    }
+    #roll{
+        font-size: 15px;
+    }
+    
+    #roll2{
+        font-size: 15px; 
+    }
+    
+    #restart{
+        font-size: 15px;
+    }
+    #scorebox {
+        width: 40vw;
+        height: 40vw;
+        
+    }
+    #scorebox2 {
+        width: 40vw;
+        height: 40vw;
+        
+    }
+    #randomNumber{
+        font-size: 15px;
+    }
+    #randomNumber2 {
+        font-size: 15px;
+    }
+    
+    #scorebox p {
+        font-size: 20px;
+        
+    }
+    #scorebox2 p {
+        font-size: 20px;
+        
+    }
+    #randomnumber p{
+        font-size: 20px;
+        
+    }
+    #randomnumber2 p{
+        font-size: 20px;
+        
+    }
+    #dicelogo{
+        width:35px;
+        height: 35px;
+    }
+    #diceimage{
+        width: 50px;
+        height: 50px;
+
+    }
+    #diceimage2{
+        width: 50px;
+        height: 50px;
+
+    }
+
+
+
+   
+
+}
 

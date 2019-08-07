@@ -1,5 +1,3 @@
-alert("Game Rules")
-alert("The first player to get the score of 31 or more WINS")
 
 
 const button = document.getElementById("roll");
