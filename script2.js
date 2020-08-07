@@ -1,4 +1,8 @@
-
+document.onreadystatechange = function(){
+    if(document.readyState=='loaded' || document.readyState=='complete')
+        alert('Game Instructions: First player to get a score past 30 wins');
+    }
+    
 
 const button = document.getElementById("roll");
 const button2 = document.getElementById("restart");

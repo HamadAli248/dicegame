@@ -4,7 +4,7 @@ Project built in Vanilla javascript, building a one and two player dice game.
 
 ## Running
 
-### `node (File Name)`
+### `Open Html File`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.<br>

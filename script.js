@@ -1,3 +1,7 @@
+document.onreadystatechange = function(){
+if(document.readyState=='loaded' || document.readyState=='complete')
+    alert('Game Instructions:  Get to a Score of 20 without rolling a one');
+}
 
 const button = document.getElementById("roll");
 const button2 = document.getElementById("restart");
